@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <title>lets.vlook</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin: 0px;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    h1{
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 20px;
+    }
+    ol{
+      border-right: 1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left: 33px;
+    }
+    #article{
+      padding-left: 25px;
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      ol{
+        border-right: none;
+      }
+      h1{
+          border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+    <h1><a href="index.html">vlook 소개</a> </h1>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html" class="saw">SELLER</a></li>
+        <li><a href="2.html" class="saw" id="active">BUYER</a></li>
+        <li><a href="3.html">EARTH</a></li>
+      </ol>
+      <div id="article">
+        <h2><u><strong>BUYER</h2> 슬로우 패션 의류를 쉽고, 간편하고, 안전하게 거래하는 플랫폼</strong></u>
+        <br>취향 저격 세컨 핸즈 옷들부터 멋스러운 빈티지 의류, 유니크한 업사이클링 의류까지 한 눈에 확인할 수 있는
+        플랫폼 vlook. 다양한 슬로우 패션 의류를 한 곳에서 구경하고, 취향별 선호 스타일, 퍼스널 컬러 등을 고려하여
+        개인 맞춤 게시물들을 추천받고, 자신의 신체 사이즈를 기반으로 가상 피팅을 할 수 있으며, 거래상의 위험 없이
+        안전하고 간편하게 구매할 수 있습니다.
+      </div>
+</div>
+</body>
+</html>
